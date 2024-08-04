@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #d5211b;
+  --light-primary-color: #ffd9d8;
+  --input-border-color: #e3e5e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  background-color: #1e1e1e;
+}
+
+body {
+  height: 100%;
+  max-width: 576px;
+  margin: auto;
+  overflow-y: hidden;
+}
+
+.screen {
+  background: #fff;
+  position: relative;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.screen::-webkit-scrollbar{
+  display: none;
+}

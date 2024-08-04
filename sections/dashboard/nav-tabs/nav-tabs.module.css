@@ -1,0 +1,22 @@
+.nav_tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+  box-shadow: 0px 0px 1px rgba(20, 20, 20, 0.04),
+    0px 0px 8px rgba(20, 20, 20, 0.08);
+}
+
+.tab {
+  display: grid;
+  justify-content: center;
+}
+
+.icon {
+  text-align: center;
+  height: 24px;
+}
+
+.title {
+    font-size: 12px;
+}

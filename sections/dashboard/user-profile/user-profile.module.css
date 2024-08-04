@@ -1,0 +1,18 @@
+.user_profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 18px 20px;
+  margin-top: 6vh;
+}
+
+.greet_user {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.greet_user span {
+  font-size: 24px;
+}
